@@ -28,4 +28,33 @@ This is a **responsive portfolio website** built using **HTML, CSS, and JavaScri
 - **CSS3** - For styling and animations.
 - **JavaScript** - For interactivity, form validation, and dark mode toggle.
 
-## 📂 Folder Structure
+
+## 🎨 UI Breakdown
+### 1️⃣ **Navbar**
+- Contains links to different sections (Home, About, Projects, Contact).
+- Includes a **dark mode toggle** button.
+
+### 2️⃣ **Home Section**
+- Displays a welcome message and tagline.
+
+### 3️⃣ **About Section**
+- Provides information about personal skills, career goals, and experience.
+
+### 4️⃣ **Projects Section**
+- Displays at least three projects using **cards layout**.
+
+### 5️⃣ **Contact Section**
+- Contains a form with fields for **name, email, and message**.
+- Uses **JavaScript for form validation** before submission.
+
+## 🌗 Dark Mode Toggle
+- Clicking the 🌙 button toggles between **light and dark modes**.
+- The `dark-mode` class is added to the `<body>` when dark mode is active.
+
+## 🔍 JavaScript Functionality
+### 🎯 **Dark Mode Toggle**
+```js
+document.getElementById('theme-toggle').addEventListener('click', function () {
+    document.body.classList.toggle('dark-mode');
+});
+
