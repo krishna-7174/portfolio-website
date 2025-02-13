@@ -8,17 +8,17 @@
 body {
     font-family: 'Poppins', sans-serif;
     transition: background 0.3s, color 0.3s;
+    background-color: #F0F4F8; /* Light grayish blue background */
+    color: #333; /* Dark text for contrast */
+}
+
+.dark-mode {
     background-color: #1a1a1a;
     color: #f7f7f7;
 }
 
-.dark-mode {
-    background-color: #121212;
-    color: #f7f7f7;
-}
-
 header {
-    background: linear-gradient(90deg, #FF6F61, #D44E58);
+    background: #007BFF; /* Light blue header */
     color: #fff;
     padding: 20px;
     position: sticky;
@@ -37,6 +37,7 @@ nav {
 nav .logo {
     font-size: 24px;
     font-weight: bold;
+    color: #fff;
 }
 
 nav .nav-links {
@@ -55,7 +56,7 @@ nav .nav-links a {
 }
 
 nav .nav-links a:hover {
-    color: #F39C12;
+    color: #0056b3; /* Darker blue on hover */
 }
 
 button {
@@ -68,20 +69,21 @@ button {
 }
 
 button:hover {
-    color: #F39C12;
+    color: #0056b3; /* Darker blue on hover */
 }
 
 /* Home Section */
 #home {
     text-align: center;
     padding: 150px 20px;
-    background: linear-gradient(135deg, #222, #444);
-    animation: colorChange 6s ease infinite;
+    background: #fff; /* White background */
+    color: #333; /* Dark text for contrast */
 }
 
 #home h1 {
     font-size: 48px;
     margin-bottom: 20px;
+    color: #007BFF; /* Light blue heading */
 }
 
 #home p {
@@ -90,7 +92,7 @@ button:hover {
 }
 
 .cta-btn {
-    background-color: #FF6F61;
+    background-color: #007BFF; /* Light blue button */
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -99,24 +101,26 @@ button:hover {
 }
 
 .cta-btn:hover {
-    background-color: #D44E58;
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
 /* About Section */
 #about {
     padding: 80px 20px;
-    background-color: #222;
+    background: #fff; /* White background */
     text-align: center;
 }
 
 #about h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    color: #007BFF; /* Light blue heading */
 }
 
 #about p {
     font-size: 18px;
     margin-bottom: 30px;
+    color: #333; /* Dark text for contrast */
 }
 
 .skills {
@@ -127,7 +131,7 @@ button:hover {
 }
 
 .skill-card {
-    background-color: #FF6F61;
+    background-color: #007BFF; /* Light blue background */
     color: #fff;
     padding: 15px 30px;
     border-radius: 25px;
@@ -136,20 +140,21 @@ button:hover {
 }
 
 .skill-card:hover {
-    background-color: #D44E58;
+    background-color: #0056b3; /* Darker blue on hover */
     transform: translateY(-5px);
 }
 
 /* Projects Section */
 #projects {
     padding: 80px 20px;
-    background-color: #333;
+    background: #F0F4F8; /* Light grayish blue background */
     text-align: center;
 }
 
 #projects h2 {
     font-size: 36px;
     margin-bottom: 30px;
+    color: #007BFF; /* Light blue heading */
 }
 
 .project-list {
@@ -160,7 +165,7 @@ button:hover {
 }
 
 .project-card {
-    background-color: #444;
+    background-color: #fff; /* White background */
     border: 1px solid #ddd;
     padding: 20px;
     width: 300px;
@@ -177,29 +182,31 @@ button:hover {
 .project-card i {
     font-size: 40px;
     margin-bottom: 15px;
-    color: #FF6F61;
+    color: #007BFF; /* Light blue icon */
 }
 
 .project-card h3 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #007BFF; /* Light blue heading */
 }
 
 .project-card p {
     font-size: 16px;
-    color: #ddd;
+    color: #555; /* Darker text for contrast */
 }
 
 /* Contact Section */
 #contact {
     padding: 80px 20px;
-    background-color: #444;
+    background: #fff; /* White background */
     text-align: center;
 }
 
 #contact h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    color: #007BFF; /* Light blue heading */
 }
 
 #contact-form {
@@ -215,12 +222,12 @@ button:hover {
     margin: 10px 0;
     border: 1px solid #ddd;
     border-radius: 5px;
-    background-color: #555;
-    color: #fff;
+    background-color: #fff;
+    color: #333;
 }
 
 #contact-form button {
-    background-color: #FF6F61;
+    background-color: #007BFF; /* Light blue button */
     color: white;
     padding: 12px;
     border: none;
@@ -230,14 +237,14 @@ button:hover {
 }
 
 #contact-form button:hover {
-    background-color: #D44E58;
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
 /* Footer */
 footer {
     padding: 20px;
     text-align: center;
-    background-color: #333;
+    background-color: #007BFF; /* Light blue footer */
     color: white;
 }
 
@@ -246,7 +253,7 @@ footer {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #FF6F61;
+    background-color: #007BFF; /* Light blue button */
     color: white;
     padding: 10px 15px;
     border-radius: 50%;
@@ -255,16 +262,9 @@ footer {
 }
 
 #scroll-to-top:hover {
-    background-color: #D44E58;
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
 .hidden {
     display: none;
-}
-
-/* Animations */
-@keyframes colorChange {
-    0% { background-color: #FF6F61; }
-    50% { background-color: #D44E58; }
-    100% { background-color: #FF6F61; }
 }
