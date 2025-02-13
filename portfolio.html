@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Krishna</title>
+    <title>Portfolio | Krushna</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script defer src="script.js"></script>
 </head>
 <body>
@@ -20,27 +22,45 @@
             </ul>
         </nav>
     </header>
-    
+
     <section id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Showcasing my skills and projects</p>
+        <div class="home-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm Krushna, a passionate B.Tech student. Let's explore my work and skills!</p>
+            <a href="#about" class="cta-btn">Learn More</a>
+        </div>
     </section>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, I'm Krishna!
-            A third-year B.Tech student passionate about software development, embedded systems, and web development.
-            
-            💻 Skills: C++, Python, JavaScript, Embedded C, HTML, CSS, MySQL
-            ⚡ Interests: DSA, Microcontrollers, Power Electronics</p>
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Hello! I'm Krushna, a third-year B.Tech student specializing in software development and embedded systems. I enjoy solving complex problems and creating innovative solutions.</p>
+            <div class="skills">
+                <div class="skill-card"><i class="fas fa-code"></i> C++, Python, JavaScript</div>
+                <div class="skill-card"><i class="fas fa-microchip"></i> Embedded C, MySQL</div>
+                <div class="skill-card"><i class="fas fa-cogs"></i> Microcontrollers, Power Electronics</div>
+            </div>
+        </div>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
         <div class="project-list">
-            <div class="project-card">Project 1-Bank Management System – A project focused on creating a system for managing banking operations.</div>
-            <div class="project-card">Project 2-Blood Database Management – A DBMS project involving MySQL to manage blood donation data and generate a CSV file.</div>
-            <div class="project-card">Project 3-Line Tracking Robot – A project where you use STM32 to build a robot that follows a line.</div>
+            <div class="project-card">
+                <i class="fas fa-university"></i>
+                <h3>Bank Management System</h3>
+                <p>A project focused on managing banking operations with a user-friendly interface.</p>
+            </div>
+            <div class="project-card">
+                <i class="fas fa-tint"></i>
+                <h3>Blood Database Management</h3>
+                <p>A DBMS project using MySQL to manage blood donation records and generate CSV reports.</p>
+            </div>
+            <div class="project-card">
+                <i class="fas fa-robot"></i>
+                <h3>Line Tracking Robot</h3>
+                <p>Developed using STM32, this robot tracks and follows a line autonomously.</p>
+            </div>
         </div>
     </section>
 
@@ -53,5 +73,12 @@
             <button type="submit">Send</button>
         </form>
     </section>
+
+    <footer>
+        <p>Made with 💻 by Krushna</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" class="hidden"><i class="fas fa-arrow-up"></i></button>
 </body>
 </html>
