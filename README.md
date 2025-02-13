@@ -1,60 +1,48 @@
-# portfolio-website
-This is a portfolio website created by Krushna
-# Personal Portfolio Website
+# Portfolio Website - Krushna
 
-## 📌 Overview
-This is a **responsive portfolio website** built using **HTML, CSS, and JavaScript**. The website showcases personal details, skills, and projects in an interactive and visually appealing manner. It includes dynamic features like a **dark mode toggle** and **form validation** for better user experience.
+This is a personal portfolio website for Krushna, showcasing skills, projects, and contact information. The website is built using HTML, CSS, and JavaScript with a responsive design and dark mode toggle feature.
 
-## 🚀 Features
-### ✅ Core Features:
-- **Homepage**: A landing page with an introduction and navigation menu.
-- **About Section**: Highlights personal details, skills, and career objectives.
-- **Projects Section**: Displays at least three projects with descriptions and images.
-- **Contact Section**: A functional contact form with JavaScript validation.
-- **Navigation & Responsiveness**: A responsive navbar that works seamlessly on all devices.
-- **Interactivity**:
-  - JavaScript-powered **form validation** to ensure valid user input.
-  - **Dark mode toggle** for better accessibility.
-- **Styling**:
-  - Modern CSS techniques including **flexbox, grid, hover effects, transitions, and animations**.
-  - Consistent color scheme and typography.
-- **Code Structure**:
-  - Semantic HTML for better accessibility.
-  - CSS media queries for responsiveness.
-  - JavaScript for interactive elements.
+## Features
 
-## 🛠️ Technologies Used
-- **HTML5** - For structuring the web pages.
-- **CSS3** - For styling and animations.
-- **JavaScript** - For interactivity, form validation, and dark mode toggle.
+- **Responsive Design:** The website adapts to different screen sizes.
+- **Dark Mode Toggle:** Users can switch between light and dark themes.
+- **Smooth Navigation:** Sticky navigation bar for easy access to sections.
+- **Projects Showcase:** Displays various projects with descriptions.
+- **Contact Form:** Allows users to send messages.
+- **Scroll-to-Top Button:** Appears when scrolling down.
 
+## Technologies Used
 
-## 🎨 UI Breakdown
-### 1️⃣ **Navbar**
-- Contains links to different sections (Home, About, Projects, Contact).
-- Includes a **dark mode toggle** button.
+- **HTML5** for structuring the website.
+- **CSS3** for styling, animations, and responsiveness.
+- **JavaScript** for interactivity (dark mode, form validation, and scroll-to-top functionality).
+- **Google Fonts** for typography.
+- **Font Awesome** for icons.
 
-### 2️⃣ **Home Section**
-- Displays a welcome message and tagline.
+## Project Structure
 
-### 3️⃣ **About Section**
-- Provides information about personal skills, career goals, and experience.
+```
+portfolio/
+│── index.html       # Main HTML file
+│── style.css        # CSS file for styling
+│── script.js        # JavaScript file for interactivity
+│── README.md        # Documentation
+```
 
-### 4️⃣ **Projects Section**
-- Displays at least three projects using **cards layout**.
+## How to Use
 
-### 5️⃣ **Contact Section**
-- Contains a form with fields for **name, email, and message**.
-- Uses **JavaScript for form validation** before submission.
+1. Clone the repository or download the files.
+2. Open `index.html` in a web browser.
+3. Navigate through the portfolio to view details.
 
-## 🌗 Dark Mode Toggle
-- Clicking the 🌙 button toggles between **light and dark modes**.
-- The `dark-mode` class is added to the `<body>` when dark mode is active.
+## Future Enhancements
 
-## 🔍 JavaScript Functionality
-### 🎯 **Dark Mode Toggle**
-```js
-document.getElementById('theme-toggle').addEventListener('click', function () {
-    document.body.classList.toggle('dark-mode');
-});
+- Add more animations and interactive elements.
+- Improve form handling with backend integration.
+- Expand project descriptions with images or live demos.
+
+## Author
+
+**Krushna** - B.Tech student specializing in software development and embedded systems.
+
 
